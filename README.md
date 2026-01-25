@@ -53,7 +53,6 @@ billing_system/
 │
 └── manage.py # Django CLI entrypoint
 
-
 ---
 
 ## ⚙️ Installation
