@@ -35,25 +35,26 @@ Designed for small to medium enterprises (SMEs), this system helps manage sales 
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```
 billing_system/
 │
-├── core/ # Main application modules
-│ ├── models.py # Database models
-│ ├── views.py # Views & business logic
-│ ├── urls.py # App routes
-│ ├── templates/ # HTML templates
-│ └── static/ # CSS, JS, images
+├── core/                # Main application modules
+├── models.py            # Database models
+├── views.py             # Views & business logic
+├── urls.py              # App routes
+├── templates/           # HTML templates
+├── static/              # CSS, JS, images
 │
-├── billing_system/ # Django project config
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
+├── billing_system/      # Django project config
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
 │
-└── manage.py # Django CLI entrypoint
+└── manage.py            # Django CLI entrypoint
+```
 
----
 
 ## ⚙️ Installation
 
